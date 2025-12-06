@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+/pnpm-debug.log*
+
+# production / build artifacts
+/dist
+/build
+/temp
+/logs
+
+# environment files
+# IMPORTANT: Never commit sensitive keys/passwords
+.env
+.env.*
+.vault
+
+# editor and OS files
+.DS_Store
+.vscode
+*.sublime-workspace
+.idea/
